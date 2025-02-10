@@ -248,32 +248,37 @@
     <div class="container is-max-desktop">
       <!-- Abstract. -->
       <div class="columns is-centered has-text-centered">
-          <div class="column is-full-width">
+        <div class="column is-full-width">
           <h2 class="title is-4">Dataset Construction Pipeline</h2>
-          <div class="column is-full-width">
-          <img src="./static/images/avhbench_pipeline.png"
-                   class="interpolation-image"
-                   alt="Interpolate start reference image."/><br><br>
-          <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-            <div class="content has-text-justified" style="max-width: 100%; margin: 0 auto;">
-            <p>
-                we devise a dataset construction pipeline with automated procedures, consisting of two main stages: Stage 1 involves
-                disentangling audio-visual information, and Stage 2 focuses on Question-and-Answer (QnA) generation for four different tasks. 
-                At the end of each stage, we verify and correct the automatically generated outputs by employing a minimal number of human annotators.
-            </p>
+          <div class="column is-full-width has-text-centered">
+            <figure class="image" style="width: 100%; max-width: 80%; margin: 0 auto;">
+              <img src="./static/images/avhbench_pipeline.png" class="interpolation-image" alt="Interpolate start reference image."/>
+            </figure>
+            <br><br>
+            <div class="columns is-centered has-text-centered">
+              <div class="column is-full-width">
+                <div class="content has-text-justified" style="max-width: 80%; margin: 0 auto;">
+                  <p>
+                    We devise a dataset construction pipeline with automated procedures, consisting of two main stages: Stage 1 involves
+                    disentangling audio-visual information, and Stage 2 focuses on Question-and-Answer (QnA) generation for four different tasks. 
+                    At the end of each stage, we verify and correct the automatically generated outputs by employing a minimal number of human annotators.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+  
 
 
   <section class="section">
     <div class="container is-max-desktop">
       <!-- Updated Section Title -->
       <div class="columns is-centered has-text-centered">
-        <h3 class="title is-4">Qualitative Results on AVHBench</h3>
+        <h3 class="title is-4">Qualitative Results on <span class="dnerf">AVHBench</span></h3>
       </div>
       
       <!-- Figures Container -->
